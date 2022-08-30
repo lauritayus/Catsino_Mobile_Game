@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/empty">
+
+    <ImageView
+        android:id="@+id/dinero_fondo"
+        android:layout_width="201dp"
+        android:layout_height="97dp"
+        android:src="@drawable/money_interface"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.009" />
+
+    <TextView
+        android:id="@+id/dineroactual"
+        android:layout_width="126dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="652dp"
+        android:text="100"
+        android:textAlignment="textEnd"
+        android:textColor="#731D1D"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.266"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/ruletagirando"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ruletafastgif"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="146dp" />
+
+    <ImageView
+        android:id="@+id/ruletaquieta"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ruleta"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="146dp" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/coinsgif"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/coinsgif"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.07" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

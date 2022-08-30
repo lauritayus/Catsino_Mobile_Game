@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="loading_images_roullete">
+        <item>@drawable/ruleta01_12</item>
+        <item>@drawable/ruleta02_02</item>
+        <item>@drawable/ruleta03_34</item>
+        <item>@drawable/ruleta04_67</item>
+        <item>@drawable/ruleta05_345</item>
+
+        <item>@drawable/ruleta06_234</item>
+        <item>@drawable/ruleta07_12</item>
+        <item>@drawable/ruleta08_34</item>
+        <item>@drawable/ruleta09_23</item>
+        <item>@drawable/ruleta10_12</item>
+
+        <item>@drawable/ruleta11_08</item>
+        <item>@drawable/ruleta12_12</item>
+        <item>@drawable/ruleta13_45</item>
+        <item>@drawable/ruleta14_45</item>
+        <item>@drawable/ruleta15_23</item>
+    </array>
+
+    <array name="loading_images_daily">
+        <item>@drawable/daily_01_122</item>
+        <item>@drawable/daily_02_288</item>
+        <item>@drawable/daily_03_341</item>
+        <item>@drawable/daily_04_674</item>
+        <item>@drawable/daily_05_345</item>
+
+        <item>@drawable/daily_06_234</item>
+        <item>@drawable/daily_07_121</item>
+        <item>@drawable/daily_08_345</item>
+        <item>@drawable/daily_09_232</item>
+        <item>@drawable/daily_10_121</item>
+
+        <item>@drawable/daily_11_843</item>
+        <item>@drawable/daily_12_123</item>
+        <item>@drawable/daily_13_452</item>
+        <item>@drawable/daily_14_457</item>
+        <item>@drawable/daily_15_233</item>
+    </array>
+
+    <array name="loading_images_slot">
+        <item>@drawable/game_slot_1</item>
+        <item>@drawable/game_slot_2</item>
+        <item>@drawable/game_slot_3</item>
+        <item>@drawable/game_slot_4</item>
+        <item>@drawable/game_slot_5</item>
+
+        <item>@drawable/game_slot_6</item>
+        <item>@drawable/game_slot_7</item>
+        <item>@drawable/game_slot_8</item>
+        <item>@drawable/game_slot_9</item>
+        <item>@drawable/game_slot_10</item>
+
+        <item>@drawable/game_slot_11</item>
+        <item>@drawable/game_slot_12</item>
+        <item>@drawable/game_slot_13</item>
+        <item>@drawable/game_slot_14</item>
+        <item>@drawable/game_slot_15</item>
+        <item>@drawable/game_slot_16</item>
+        <item>@drawable/game_slot_17</item>
+        <item>@drawable/game_slot_18</item>
+    </array>
+
+    <array name="loading_images_dices">
+        <item>@drawable/game_dices_1_1</item>
+        <item>@drawable/game_dices_1_2</item>
+        <item>@drawable/game_dices_1_3</item>
+        <item>@drawable/game_dices_1_4</item>
+        <item>@drawable/game_dices_1_5</item>
+        <item>@drawable/game_dices_1_6</item>
+
+        <item>@drawable/game_dices_2_1</item>
+        <item>@drawable/game_dices_2_2</item>
+        <item>@drawable/game_dices_2_3</item>
+        <item>@drawable/game_dices_2_4</item>
+        <item>@drawable/game_dices_2_5</item>
+        <item>@drawable/game_dices_2_6</item>
+
+        <item>@drawable/game_dices_3_1</item>
+        <item>@drawable/game_dices_3_2</item>
+        <item>@drawable/game_dices_3_3</item>
+        <item>@drawable/game_dices_3_4</item>
+        <item>@drawable/game_dices_3_5</item>
+        <item>@drawable/game_dices_3_6</item>
+
+        <item>@drawable/game_dices_4_1</item>
+        <item>@drawable/game_dices_4_2</item>
+        <item>@drawable/game_dices_4_3</item>
+        <item>@drawable/game_dices_4_4</item>
+        <item>@drawable/game_dices_4_5</item>
+        <item>@drawable/game_dices_4_6</item>
+
+        <item>@drawable/game_dices_5_1</item>
+        <item>@drawable/game_dices_5_2</item>
+        <item>@drawable/game_dices_5_3</item>
+        <item>@drawable/game_dices_5_4</item>
+        <item>@drawable/game_dices_5_5</item>
+        <item>@drawable/game_dices_5_6</item>
+
+        <item>@drawable/game_dices_6_1</item>
+        <item>@drawable/game_dices_6_2</item>
+        <item>@drawable/game_dices_6_3</item>
+        <item>@drawable/game_dices_6_4</item>
+        <item>@drawable/game_dices_6_5</item>
+        <item>@drawable/game_dices_6_6</item>
+    </array>
+
+    <array name="loading_images_bubbles">
+        <item>@drawable/bubble_1</item>
+        <item>@drawable/bubble_1</item>
+        <item>@drawable/bubble_1</item>
+        <item>@drawable/bubble_1</item>
+        <item>@drawable/bubble_1</item>
+        <item>@drawable/bubble_1</item>
+
+        <item>@drawable/bubble_5</item>
+        <item>@drawable/bubble_5</item>
+        <item>@drawable/bubble_5</item>
+        <item>@drawable/bubble_5</item>
+        <item>@drawable/bubble_5</item>
+
+        <item>@drawable/bubble_10</item>
+        <item>@drawable/bubble_10</item>
+        <item>@drawable/bubble_10</item>
+        <item>@drawable/bubble_10</item>
+
+        <item>@drawable/bubble_25</item>
+        <item>@drawable/bubble_25</item>
+        <item>@drawable/bubble_25</item>
+
+        <item>@drawable/bubble_50</item>
+        <item>@drawable/bubble_50</item>
+
+        <item>@drawable/bubble_100</item>
+        <item>@drawable/bubble_100</item>
+
+        <item>@drawable/bubble_500</item>
+        <item>@drawable/bubble_1000</item>
+        <item>@drawable/bubble_cat</item>
+    </array>
+
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "383300227343",
+    "project_id": "katsinobd",
+    "storage_bucket": "katsinobd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383300227343:android:3433dc35dd72e755b3ae7a",
+        "android_client_info": {
+          "package_name": "com.example.katsino_bd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "383300227343-b3apc4tlg3dfvrai5juvij90eddl09vf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSbURqFwber-kdhV4VgcuyOhyl8JMs4eo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "383300227343-b3apc4tlg3dfvrai5juvij90eddl09vf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

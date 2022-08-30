@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/empty">
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/dadosgirando"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/dicegif"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="146dp" />
+
+    <ImageView
+        android:id="@+id/img_dados"
+        android:layout_width="417dp"
+        android:layout_height="737dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/game_dices_1_1" />
+
+    <ImageView
+        android:id="@+id/dinero_fondo"
+        android:layout_width="181dp"
+        android:layout_height="97dp"
+        android:src="@drawable/money_interface"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.009" />
+
+    <TextView
+        android:id="@+id/dineroactual"
+        android:layout_width="126dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="660dp"
+        android:text="92835"
+        android:textAlignment="textEnd"
+        android:textColor="#731D1D"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/apuesta_fondo"
+        android:layout_width="181dp"
+        android:layout_height="97dp"
+        android:src="@drawable/interface_bet"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.896"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.009" />
+
+    <EditText
+        android:id="@+id/apuestaactual"
+        android:layout_width="108dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="650dp"
+        android:text="50"
+        android:textColor="#731D1D"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/minus"
+        android:layout_width="126dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="660dp"
+        android:text="-"
+        android:textColor="#731D1D"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/coinsgif"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/coinsgif"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.07" />
+</androidx.constraintlayout.widget.ConstraintLayout>

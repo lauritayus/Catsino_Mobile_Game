@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/empty">
+
+
+    <ImageView
+        android:id="@+id/dinero_fondo"
+        android:layout_width="201dp"
+        android:layout_height="97dp"
+        android:src="@drawable/money_interface"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.009" />
+
+    <TextView
+        android:id="@+id/dineroactual"
+        android:layout_width="126dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="652dp"
+        android:text="92835"
+        android:textAlignment="textEnd"
+        android:textColor="#731D1D"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.266"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/cs1"
+                android:layout_width="93dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/bubble" />
+
+            <ImageView
+                android:id="@+id/cs2"
+                android:layout_width="93dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/bubble" />
+
+            <ImageView
+                android:id="@+id/cs3"
+                android:layout_width="93dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/bubble" />
+
+            <ImageView
+                android:id="@+id/cs4"
+                android:layout_width="93dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/bubble" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/cs5"
+                android:layout_width="93dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/bubble" />
+
+            <ImageView
+                android:id="@+id/cs6"
+                android:layout_width="93dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/bubble" />
+
+            <ImageView
+                android:id="@+id/cs7"
+                android:layout_width="93dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/bubble" />
+
+            <ImageView
+                android:id="@+id/cs8"
+                android:layout_width="93dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/bubble" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/cs9"
+                android:layout_width="93dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/bubble" />
+
+            <ImageView
+                android:id="@+id/cs10"
+                android:layout_width="93dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/bubble" />
+
+            <ImageView
+                android:id="@+id/cs11"
+                android:layout_width="93dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/bubble" />
+
+            <ImageView
+                android:id="@+id/cs12"
+                android:layout_width="93dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/bubble" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/cs13"
+                android:layout_width="93dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/bubble" />
+
+            <ImageView
+                android:id="@+id/cs14"
+                android:layout_width="93dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/bubble" />
+
+            <ImageView
+                android:id="@+id/cs15"
+                android:layout_width="93dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/bubble" />
+
+            <ImageView
+                android:id="@+id/cs16"
+                android:layout_width="93dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/bubble" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/cs17"
+                android:layout_width="93dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/bubble" />
+
+            <ImageView
+                android:id="@+id/cs18"
+                android:layout_width="93dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/bubble" />
+
+            <ImageView
+                android:id="@+id/cs19"
+                android:layout_width="93dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/bubble" />
+
+            <ImageView
+                android:id="@+id/cs20"
+                android:layout_width="93dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/bubble" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/coinsgif"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/coinsgif"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.07" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

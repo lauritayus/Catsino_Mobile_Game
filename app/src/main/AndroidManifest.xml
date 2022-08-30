@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.katsino_bd">
+
+    <application
+        android:allowBackup="true"
+        android:name=".Services.App"
+        android:icon="@mipmap/ic_icon_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_icon_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Katsino_bd">
+        <activity
+            android:name=".Login.MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomeActivity"></activity>
+        <activity
+            android:name=".Login.CreateUserActivity"
+            android:parentActivityName=".Login.MainActivity">
+
+        </activity>
+        <activity android:name=".RankingActivity"></activity>
+        <activity android:name=".GamesActivity"></activity>
+        <activity android:name=".SettingsActivity"></activity>
+
+        <activity android:name=".Games.GameBubblesActivity"
+            android:parentActivityName=".GamesActivity">
+        </activity>
+        <activity android:name=".Games.GameDicesActivity"
+            android:parentActivityName=".GamesActivity">
+        </activity>
+        <activity android:name=".Games.GameRoulleteActivity"
+            android:parentActivityName=".GamesActivity">
+        </activity>
+        <activity android:name=".Games.GameSlotsActivity"
+            android:parentActivityName=".GamesActivity">
+        </activity>
+
+        <service android:name=".Services.BackgroundSoundService"/>
+        <service android:name=".Services.TimerService"/>
+
+
+
+    </application>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+
+</manifest>

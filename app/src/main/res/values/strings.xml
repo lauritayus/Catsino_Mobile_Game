@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">katsino_bd</string>
+
+
+    <string-array name="fotos">
+        <item>Lucky</item>
+        <item>Barita</item>
+        <item>Zelda</item>
+        <item>Capito</item>
+        <item>Steven</item>
+        <item>Pomponaru</item>
+        <item>Yuki</item>
+        <item>Miaugician</item>
+    </string-array>
+
+</resources>
