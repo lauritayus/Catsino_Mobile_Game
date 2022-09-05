@@ -23,3 +23,6 @@ Contiene:
   -  💯 ranking de jugadores.
 
   -  ⚙️ ajustes de la aplicación.
+  
+  ![image](https://user-images.githubusercontent.com/112512062/188436793-f5ab45a8-39c6-417e-aa35-852cdce2e2cc.png)
+
